@@ -14,6 +14,7 @@
 *{
     font-family: Mars;
     
+    
 }
 button {
     @apply text-white border bg-blue-700 border-stone-900
