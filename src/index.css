@@ -12,8 +12,10 @@
     src:local("Mars-Bold"), url("./Fonts/Mars\ Bold.ttf") format('truetype');
 }
 *{
-    font-family: Mars;
-    
+    font-family: Kusanagi;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     
 }
 button {
@@ -21,6 +23,7 @@ button {
 }
 li{
     @apply p-4
-    text-gray-500
+    text-white
     hover:underline decoration-blue-300 underline-offset-4
 }
+
