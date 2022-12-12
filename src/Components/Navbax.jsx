@@ -7,7 +7,7 @@ import moo from '../Assests/moon.png';
 
 const NavbarItem =({title,classProps})=>{
   return(
-    <li className='mx-4 cursor-pointer ${classProps}'>
+    <li className='mx-2 cursor-pointer ${classProps}'>
       {title}
     </li>
   )
@@ -32,9 +32,9 @@ const Navbar = () => {
         {["POM" ,"PRODUCTS","ROADMAP" , "TEAM","PARTNERS","FAQ"].map((item,index)=>(
            <NavbarItem key={item +index} title={item}/>
         ))}
-        <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">BUY $POM</li>
+        
       </ul>
-
+      <button className='bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd] md:flex hidden buttons ring-2 ring-pink-300 ring-inset shadow-lg shadow-cyan-500/50'>BUY $POM </button>
       <div className='flex relative'>
         {toggleMenu
          ? <AiOutlineClose fontSize={28} className="text-white md:hidden cursor-pointer" onClick={() => setToggleMenu(false)}/>
@@ -53,7 +53,7 @@ const Navbar = () => {
               
             ))}
             <div > 
-                <button class='py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#879deb] ... ring-offset-2 ring' >BUY $POM</button>
+                <button class='py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#879deb] ... ring-offset-2 ring buttons ring-2 ring-pink-300 ring-inset shadow-lg shadow-cyan-500/50' >BUY $POM</button>
             </div>
           </ul>
          )}
