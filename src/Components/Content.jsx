@@ -2,10 +2,10 @@ import React from 'react'
 
 const Content = () => {
   return (
-    <div className='w-screen flex lg:h-screen sm:mt-30 bg-black py-3 '>
+    <div name='content' className='w-screen flex lg:h-screen sm:mt-30 bg-black py-3 '>
         <div className='max-w-[1240px] mx-auto text-white relative'>
             <div className='mt-20'>
-                <p className='text-blue-600 font-bold text-2xl my-3 px-4 '>Proof of Moon </p>
+                <p className='text-blue-600 font-bold text-xl my-3 px-4 '>Proof of Moon </p>
                 <h2 className='text-1xl tracking-wide px-4 py-5'>
                    A "blood moon" happens when Earth's moon is in a total lunar eclipse. While it has no special astronomical significance, the view in the sky is striking as the usually whitish moon becomes red or ruddy brown.
                 </h2>

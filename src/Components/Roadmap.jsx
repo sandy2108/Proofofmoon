@@ -4,7 +4,7 @@ import { BiCheckbox, BiCheckboxChecked} from "react-icons/bi";
 
 const Roadmap = () => {
   return (
-    <div className='w-screen flex lg:h-screen bg-black py-6'>
+    <div name='roadmap' className='w-screen flex lg:h-screen bg-black py-6'>
         <div className='max-w-[1240px] mx-auto text-[#FFFFFF] relative'>
             <div >
                 <p className='px-4 text-bold text-xl my-3 text-green-500'>Project RoadMap</p>

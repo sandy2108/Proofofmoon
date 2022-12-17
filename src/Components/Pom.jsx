@@ -3,10 +3,10 @@ import { BiExpandAlt } from "react-icons/bi";
 
 const Pom = () => {
   return (
-    <div class='w-screen flex lg:h-screen bg-black py-3 '> 
+    <div name='products' class='w-screen flex lg:h-screen bg-black py-3 '> 
       <div class='max-w-[1240px] mx-auto text-white relative'>
         <div >
-          <p className='text-blue-600 font-bold text-2xl my-3 px-4'> Our Features</p>           
+          <p className='text-blue-600 font-bold text-xl my-3 px-4'> Our Features</p>           
         </div>
         <div className='grid md:grid-cols-2 my-1 sm:flex-row mt-5 px-px'>
             <div className='px-4 '>

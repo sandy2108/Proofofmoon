@@ -6,6 +6,8 @@ import Pom from "./Components/Pom";
 import Roadmap from "./Components/Roadmap";
 import Footer from "./Components/Footer";
 import Shop from "./Components/Shop";
+import Info from "./Components/Info";
+import Partners from "./Components/Partners";
 
 
 
@@ -16,14 +18,13 @@ function App() {
        <Navbar/>
       </div>
       <Hero/>
+      <Info/>
       <Content/>
       <Pom/>
       <Roadmap/>
+      <Partners/>
       <Shop/>
-      <Footer/>
-     
-      
-      
+      <Footer/>   
     </div>
   );
 }
