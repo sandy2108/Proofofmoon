@@ -1,11 +1,11 @@
 import React from 'react'
-import { HiCheck } from "react-icons/hi";
+
 import { BiCheckbox, BiCheckboxChecked} from "react-icons/bi";
 
 const Roadmap = () => {
   return (
-    <div className='w-screen bg-black py-6'>
-        <div className='max-w-[1240px] mx-auto text-white relative'>
+    <div className='w-screen flex lg:h-screen bg-black py-6'>
+        <div className='max-w-[1240px] mx-auto text-[#FFFFFF] relative'>
             <div >
                 <p className='px-4 text-bold text-xl my-3 text-green-500'>Project RoadMap</p>
                 <h1 className='uppercase text-2xl px-4 sm:text-5xl '>Our Journey</h1>
@@ -15,7 +15,7 @@ const Roadmap = () => {
             <div className='p-8'>
                 
                 <div >
-                  <p className=' items-start justify-start rounded-full bg-transparent w-40  text-m  ring ring-inset shadow-lg shadow-cyan-500/50 text-white'>1.  Launch</p> 
+                  <p className=' items-start justify-start rounded-full bg-transparent w-40  text-m  ring ring-inset shadow-lg shadow-cyan-500/50 text-black bg-blue-300'>1.  Launch</p> 
                 </div>
                 
                 <div className='my-3 text-xs mx-auto ring-inset shadow-lg shadow-cyan-500/50'>

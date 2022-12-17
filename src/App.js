@@ -4,7 +4,9 @@ import Hero from "./Components/Hero";
 import Content from "./Components/Content";
 import Pom from "./Components/Pom";
 import Roadmap from "./Components/Roadmap";
-import Team from "./Components/Team";
+import Footer from "./Components/Footer";
+import Shop from "./Components/Shop";
+
 
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
       <Content/>
       <Pom/>
       <Roadmap/>
-      <Team/>
+      <Shop/>
+      <Footer/>
+     
       
       
     </div>

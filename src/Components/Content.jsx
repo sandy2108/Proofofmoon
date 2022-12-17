@@ -2,7 +2,7 @@ import React from 'react'
 
 const Content = () => {
   return (
-    <div className='w-screen h-screen bg-black py-3 '>
+    <div className='w-screen flex lg:h-screen sm:mt-30 bg-black py-3 '>
         <div className='max-w-[1240px] mx-auto text-white relative'>
             <div className='mt-20'>
                 <p className='text-blue-600 font-bold text-2xl my-3 px-4 '>Proof of Moon </p>

@@ -15,11 +15,9 @@ const Hero= () => {
           <img src={moo} alt='' className='w-full h-screen object-cover mix-blend-overlay'/>       
         </div>
         <div class='max-w-[1240px] mx-auto text-white relative '> 
-          <div className='px-4 py-12'>
-            <h3 className='text-5xl py-6 font-bold text-center sm:text-5xl sm:mb-3'>Finding the Right team </h3>
-          </div>
-          <div class='flex items-center justify-center '>
-            <h4 className='text-5xl py-2 text-center sm:text-5xl sm:py-3'>BUILT IT FOR MOONERS IN THIS SPACES </h4>
+         
+          <div class='flex items-center justify-center px-4 lg:py-20 py-10 '>
+            <h4 className='text-5xl py-2 font-bold text-center sm:text-5xl sm:py-3 sm:mb-3'>BUILT IT FOR MOONERS IN THIS SPACES </h4>
           </div>
                 
         </div>

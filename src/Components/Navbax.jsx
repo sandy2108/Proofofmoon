@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <ul className='text-white md:flex hidden list-none flex-row justify-between items-center flex-initial'>
-        {["POM" ,"PRODUCTS","ROADMAP" , "TEAM","PARTNERS","FAQ"].map((item,index)=>(
+        {["POM" ,"PRODUCTS","ROADMAP" ,"SHOPS"].map((item,index)=>(
            <NavbarItem key={item +index} title={item}/>
         ))}
         
@@ -48,12 +48,12 @@ const Navbar = () => {
             <li className='text-xl w-fully my-2'>
               <AiOutlineClose onClick={()=>setToggleMenu(false)}/>
             </li>
-            {["POM" ,"PRODUCTS","ROADMAP" , "TEAM","PARTNERS","FAQ"].map((item,index)=>(
+            {["POM" ,"PRODUCTS","ROADMAP" ,"SHOPS"].map((item,index)=>(
               <NavbarItem key={item +index} title={item} classProps="my-2 text-lg" />
               
             ))}
             <div > 
-                <button class='py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#879deb] ... ring-offset-2 ring buttons ring-2 ring-pink-300 ring-inset shadow-lg shadow-cyan-500/50' >BUY $POM</button>
+                <button class='py-2 px-7 mx-4 rounded-full cursor-pointer text-white hover:bg-[#879deb] ... ring-offset-2 buttons ring ring-pink-300 ring-inset shadow-lg shadow-cyan-500/50' >BUY $POM</button>
             </div>
           </ul>
          )}

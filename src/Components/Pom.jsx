@@ -3,7 +3,7 @@ import { BiExpandAlt } from "react-icons/bi";
 
 const Pom = () => {
   return (
-    <div class='w-screen bg-black py-3 '> 
+    <div class='w-screen flex lg:h-screen bg-black py-3 '> 
       <div class='max-w-[1240px] mx-auto text-white relative'>
         <div >
           <p className='text-blue-600 font-bold text-2xl my-3 px-4'> Our Features</p>           
@@ -17,27 +17,27 @@ const Pom = () => {
             </div>
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 relative  px-4 pt-5 sm:pt-20 text-black item'>
-          <div className='text-green-300   rounded-xl shadow-2xl ring-2 ring-pink-300 ring-inset shadow-lg shadow-blue-500/50  hover:bg-white'>
+          <div className='text-green-300   rounded-xl shadow-2xl ring-2 ring-pink-300 ring-inset shadow-blue-500/50  hover:bg-white'>
             <div className='p-8'>
                 <h3 className='text-2xl font-bold my-6'>Feature 1</h3>
                 <p className='text-gray-600 text-xl'>Asdfgff klnkdkldm</p>
             </div>
           </div>
-          <div className='text-green-300  rounded-xl shadow-2xl ring-2 ring-pink-300 ring-inset shadow-lg shadow-blue-500/50  hover:bg-white'>
+          <div className='text-green-300  rounded-xl shadow-2xl ring-2 ring-pink-300 ring-inset shadow-blue-500/50  hover:bg-white'>
             <div className='p-8'>
                 
                 <h3 className='text-2xl font-bold my-6'>Feature 2</h3>
                 <p className='text-gray-600 text-xl'>Asdfgff klnkdkldm</p>
             </div>
           </div>
-          <div className='text-green-300  rounded-xl shadow-2xl  ring-2 ring-pink-300 ring-inset shadow-lg shadow-blue-500/50 hover:bg-white'>
+          <div className='text-green-300  rounded-xl shadow-2xl ring-2 ring-pink-300 ring-inset  shadow-blue-500/50 hover:bg-white'>
             <div className='p-8'>
                 
                 <h3 className='text-2xl font-bold my-6'>Feature 3</h3>
                 <p className='text-gray-600 text-xl'>asdfgf lkjhghh</p>
             </div>
           </div>
-          <div className='text-green-300  rounded-xl shadow-2xl ring-2 ring-pink-300 ring-inset  shadow-lg shadow-blue-500/50 hover:bg-white'>
+          <div className='text-green-300  rounded-xl shadow-2xl ring-2 ring-pink-300 ring-inset  shadow-blue-500/50 hover:bg-white'>
             <div className='p-8'>
                 <h3 className='text-2xl font-bold my-6'>Feature 4</h3>
                 <p className='text-gray-600 text-xl'>Asdfgf lkjhik </p>
