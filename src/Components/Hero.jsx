@@ -1,7 +1,7 @@
 import React from 'react'
 import '../index';
 
-import moo from '../Assests/mis.jpg';
+import moo from '../Assests/miss.jpg';
 
 const Hero= () => {
   return (
